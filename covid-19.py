@@ -4,8 +4,8 @@ import mysql.connector
 mydb=mysql.connector.connect(
     host="localhost",
     port=3306,
-    user="root",
-    password="12345",
+    user="ENTER USERNAME",
+    password="ENTER PASSWORD",
     database="covid_19"
 )
 mycursor=mydb.cursor()
